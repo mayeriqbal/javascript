@@ -1,0 +1,1 @@
+const styleSwitcherToogle = document.querySelector(".style-switcher-toogler")
