@@ -1,9 +1,7 @@
 let string = "";
-let buttons = document.querySelectorAll(".button");
-Array.from(buttons).forEach((button) =>{
+let buttons = document.querySelectorAll('.button')
+Array.from(buttons).forEach((button)=>{
    button.addEventListener('click', (e)=>{
-    console.log(e.target)
-    string = string + e.target.innerHtml;
-    document.querySelector('input').value = string;
+     console.log(e.target)
    })
 })
