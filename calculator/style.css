@@ -3,21 +3,42 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: "Roboto", sans-serif;
+    background-color: black;
+    box-sizing: border-box;
 }
 .button{
-    padding: 20px;   
+    padding-top: 50px;   
+    padding-left: 50px;   
+    padding-right: 50px;   
+    padding-bottom: 50px;   
     border: 3px solid black;
-    border-radius: 9px;
+    border-radius:60%;
     cursor: pointer;
+    background-color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
 }
 .row{
     margin: 0 3px;
     margin: 8px 0;
 }
 .row input{
-    font-size: 18px;
+    font-size: 35px;
+    background-color: #222;
     margin: 0;
     padding: 10px 0px;
     border: 3px solid black;
     border-radius: 5px;
+}
+.orange{
+    background-color: orange;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+.text-center{
+    color: white;
 }
