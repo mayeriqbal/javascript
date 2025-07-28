@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const questions = [
     {
-      question: "What is the capital of Pakistan?",
+      question: "Who is the capital of Pakistan?",
       choices: ["Islamabad", "Lahore", "Multan", "Sialkot"],
       answer: "Islamabad",
     },
